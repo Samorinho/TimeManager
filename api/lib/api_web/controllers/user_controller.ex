@@ -21,13 +21,6 @@ defmodule GothamWeb.UserController do
     end
   end
 
-  # def create(conn, %{"user" => user_params}) do
-  #   with {:ok, %User{} = user} <- Accounts.create_user(user_params),
-  #        {:ok, token, _claims} <- Guardian.encode_and_sign(user) do
-  #     conn |> render("jwt.json", jwt: token)
-  #   end
-  # end
-
   def verify_user(conn, %{"email" => email, "password" => password}) do
     user = Accounts.login!(email) 
     if Pbkdf2.verify_pass(password, user.password_hash) do
@@ -37,10 +30,10 @@ defmodule GothamWeb.UserController do
     end     
   end
 
-  # def show(conn, %{"id" => id}) do
-  #   user = Accounts.get_user!(id)
-  #   render(conn, "show.json", user: user)
-  # end
+  def user_by_id(conn, %{"id" => id}) do
+    user = Accounts.get_user!(id)
+    render(conn, "show.json", user: user)
+  end
 
   def show(conn, _params) do
      user = Guardian.Plug.current_resource(conn)
@@ -62,8 +55,6 @@ defmodule GothamWeb.UserController do
       send_resp(conn, :no_content, "")
     end
   end
-
-  ####################
 
   def sign_in(conn, %{"email" => email, "password" => password}) do
     case Accounts.token_sign_in(email, password) do

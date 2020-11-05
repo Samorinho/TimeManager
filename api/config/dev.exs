@@ -3,9 +3,9 @@ use Mix.Config
 # Configure your database
 config :api, Gotham.Repo,
   username: "postgres",
-  password: "azerty",
+  password: "postgres",
   database: "api_dev",
-  hostname: "db",
+  hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
