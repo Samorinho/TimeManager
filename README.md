@@ -24,3 +24,8 @@ git add .
 git commit -m "message"
 git push origin nomdebranche
 ```
+# Docker
+```
+docker-system prune
+docker-compose up --build
+```
