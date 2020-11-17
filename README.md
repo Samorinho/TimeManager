@@ -6,7 +6,7 @@ Managing workers / managers clocking and working hours, with the ability to assi
 * Phoenix Framework
 * Docker
 ## Setup
-1. VueJS Web Application
+1. [VueJS Web Application](https://github.com/Samorinho/TimeManager/blob/master/README.md#vuejs-web-application)
 2. Elixir Phoenix API
 3. Git
 4. Docker
