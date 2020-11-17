@@ -7,17 +7,16 @@ Managing workers / managers clocking and working hours, with the ability to assi
 * Docker
 ## Setup
 1. [VueJS Web Application](https://github.com/Samorinho/TimeManager/blob/master/README.md#vuejs-web-application)
-2. Elixir Phoenix API
-3. Git
-4. Docker
+2. [Elixir Phoenix API](https://github.com/Samorinho/TimeManager/blob/master/README.md#elixir-phoenix-api)
+3. [Git](https://github.com/Samorinho/TimeManager/blob/master/README.md#git)
+4. [Docker](https://github.com/Samorinho/TimeManager/blob/master/README.md#docker)
 # VueJS Web Application
 ```
 cd webapp
 npm i
 npm run serve
 ```
-# 
-* Elixir Phoenix API
+# Elixir Phoenix API
 ```
 cd api
 mix deps.get
