@@ -1,4 +1,4 @@
-# timemanager_2019_56
+# Time Manager
 Project T7 T-POO-700 time manager
 # VueJS Web Application
 ```
