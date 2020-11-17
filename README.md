@@ -1,10 +1,15 @@
 # Time Manager
 Managing workers / managers clocking and working hours, with the ability to assign workers to specific groups, promote them or remove them from the app
-## Setup
-* VueJS Web Application
-* Elixir Phoenix API
-* Git
+## Technologies
+* VueJS 
+* Elixir 
+* Phoenix Framework
 * Docker
+## Setup
+1. VueJS Web Application
+2. Elixir Phoenix API
+3. Git
+4. Docker
 # VueJS Web Application
 ```
 cd webapp
