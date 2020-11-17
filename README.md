@@ -1,14 +1,19 @@
 # Time Manager
-Project T7 T-POO-700 time manager
+Managing workers / managers clocking and working hours, with the ability to assign workers to specific groups, promote them or remove them from the app
+## Setup
+* VueJS Web Application
+* Elixir Phoenix API
+* Git
+* Docker
 # VueJS Web Application
 ```
 cd webapp
 npm i
 npm run serve
 ```
-# Elixir Phoenix API
+# 
+* Elixir Phoenix API
 ```
-Vérifier le mot de passe PostGresSQL dans config/dev.exs
 cd api
 mix deps.get
 mix ecto.create
@@ -18,11 +23,11 @@ mix phx.server
 ```
 # Git
 ```
-git branch nomdebranche
-git checkout nomdebranche
+git branch newbranch
+git checkout newbranch
 git add .
 git commit -m "message"
-git push origin nomdebranche
+git push origin newbranch
 ```
 # Docker
 ```
