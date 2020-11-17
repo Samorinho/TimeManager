@@ -2,7 +2,7 @@
 Managing workers / managers clocking and working hours, with the ability to assign workers to specific groups, promote them or remove them from the app
 
 ![Screen Capture](https://github.com/Samorinho/TimeManager/blob/master/webapp/src/assets/Capture.png)
-Format: ![Time Manager Screen Capture](url)
+Format: ![Time Manager Screen Capture](https://github.com/Samorinho/TimeManager/blob/master/webapp/src/assets/Capture.png)
 ## Technologies
 * VueJS 
 * Elixir 
